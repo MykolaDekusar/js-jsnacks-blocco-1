@@ -5,7 +5,7 @@ let totale = 0;
 
 for (let i = 0; i < nInput; i++) {
     somma = Number(prompt("Inserisci un numero"));
-    if (somma > 0 && (somma !== NaN)) {
+    if ((somma !== NaN)) {
         console.log(somma);
         totale = totale + somma;
         console.log(totale);
