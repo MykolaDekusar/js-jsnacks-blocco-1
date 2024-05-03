@@ -1,8 +1,9 @@
-L’utente inserisce due parole in successione, con due prompt.
-Il software stampa prima la parola più corta, poi la parola più lunga.
+Snack 9
+Calcola la somma e la media dei primi 10 numeri.
+Stampa i risultati on console
 
-- Creo una const per l'input della prima parola
-- Creo una const per l'input della seconda parola
-
-- Tramite il .lenght visualizzo la lunghezza della prima stringa e della seconda stringa
-- Confronto le due stringhe
+- Chiedo all'utente di inserire 10 numeri
+- Verifico che siano numeri validi
+- Se sono numeri validi li sommo
+- Trovo la media dei numeri prendendo la somma dei numeri e dividendola per la lunghezza dell'array
+- Stampo i risultati in console
