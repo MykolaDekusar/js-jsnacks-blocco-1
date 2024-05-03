@@ -5,8 +5,14 @@ let totale = 0;
 
 for (let i = 0; i < nInput; i++) {
     somma = Number(prompt("Inserisci un numero"));
-    console.log(somma);
-    totale = totale + somma;
-    console.log(totale);
+    if (somma > 0 && (somma !== NaN)) {
+        console.log(somma);
+        totale = totale + somma;
+        console.log(totale);
+    } else {
+        alert("Inserisci un numero valido");
+        i--;
+    }
+
 }
 alert("La somma dei numeri è: " + totale);
