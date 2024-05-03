@@ -10,7 +10,7 @@
 // - Stampo i risultati in console
 
 const numeriUtente = [];
-const quantiNumeri = 10;
+const quantiNumeri = 2;
 let NumeriUtenteSpaziati = [];
 let nUtente = 0;
 let somma = 0;
@@ -36,5 +36,6 @@ for (let i = 0; i < quantiNumeri; i++) {
 media = somma / numeriUtente.length;
 //spazio l'array
 NumeriUtenteSpaziati = numeriUtente.join(', ');
+
 console.log(`La somma dei numeri inseriti è di ${somma}, la media è ${media} e i numeri inseriti sono ${NumeriUtenteSpaziati}`);
 alert(`La somma dei numeri inseriti è di ${somma}, la media è ${media} e i numeri inseriti sono ${NumeriUtenteSpaziati}`);
