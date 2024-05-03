@@ -10,7 +10,7 @@
 // - Stampo i risultati in console
 
 const numeriUtente = [];
-const quantiNumeri = 2;
+const quantiNumeri = 10;
 let NumeriUtenteSpaziati = [];
 let nUtente = 0;
 let somma = 0;
